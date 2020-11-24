@@ -623,11 +623,25 @@ header div.soc a:nth-child(4) i {
     color: white;
 }
 
-
+/*-----*/
 .contacts {
     background-color: #464646;
     padding: 20px 15px ;
 }
+
+.contacts .container {
+    max-width: 980px;
+    margin: auto;
+}
+.contacts .container.d-flex{
+    justify-content: space-between;
+}
+
+.contacts .container.d-flex p{
+    font-size: 22px;
+}
+
+
 
 footer {
     background-color: #010006;
